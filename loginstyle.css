@@ -1,0 +1,153 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(Assets/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Assets/Poppins/Poppins-Bold.otf);
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 1043px;
+    width: 1920px;
+    margin: 0;
+}
+
+.form {
+    
+    /* vertical-align: 500px; */
+    padding-left: 10px;
+    padding-right: 200px;
+    font-family: OpenSans;
+    text-align: center;
+    width: auto;
+    height: auto;
+    
+}
+
+.logo {
+    margin-bottom: 80px;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0A3442;
+    font-family: Poppins;
+    font-style: bold;
+}
+
+.input-icons i {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    padding: 10px;
+    color: grey;
+    min-width: 50px;
+    margin-right: 5px;
+    text-align: left; 
+}
+
+.input-field {
+    display: block;
+    width: 571px;
+    border-radius: 40px;
+    border: 1px solid grey;
+    outline: teal;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    /* position: relative; */
+    /* left: 5px; */
+
+}
+
+.forgot-password {
+    display: block;
+    margin: 10px auto;
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: right;
+    width: 300px;
+    font-size: 14px;
+    color: #6F74DD;
+}
+
+.login-button {
+    display: block;
+    width: 240px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 40px;
+    border-color: #44757A;
+    border-style: solid;
+    font-family: OpenSans;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #44757A;
+    color: #FFF;
+}
+
+.google-container {
+    display: flex;
+    place-content: center;
+    margin-right: 10px;
+}
+
+.google-login-button {
+    display: block;
+    width: 240px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 40px;
+    border-style: solid;
+    stroke: #44757A;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFF;
+    color: #44757A;
+}
+
+.or-separator {
+    margin: 10px auto;
+    font-size: 16px;
+    color: #888;
+}
+
+.register-prompt {
+    margin-top: 20px;
+    color: #828282;
+}
+
+.register-link {
+    display: block;
+    margin-top: 5px;
+    color: #0A3442;
+}
+
+.illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.decoration {
+    width: 885px;
+    height: 200px;
+    background-color: #0A3442;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
